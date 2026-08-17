@@ -21,3 +21,9 @@
 * 第三步：运行游戏
 下载个客户端，双击登录器就进入游戏了
 
+## 问题
+加密算法异常
+
+```Error initalizing the encryption cipher. Make sure you're using the Unlimited Strength crptography jar files.```
+
+解决：解压UnlimitedJCEPolicy.tar，覆盖掉jdk1.7.0_75/jre/lib/security中的jar文件
